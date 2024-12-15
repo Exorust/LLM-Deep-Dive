@@ -15,69 +15,82 @@ In an age of GPT, I'm going to handwrite the best links I've used to learn LLMs.
 PS: This is for people trying to go deeper. If you want something kind of basic, look elsewhere.
 
 #### ◻️How to use this guide?
-Start with Easy links in each section. 
+Start by going through the Table of contents. See what you've already read and what you haven't.
+Then, start with Easy links in each section. 
 Each area has multiple types of subtopics each of which will go more in depth. In the event there are no articles, feel free to email for additions or raise a PR.
 
 #### ◻️Table of contents
-- [This section talks about various aspects of the Agentic LLMs](#this-section-talks-about-various-aspects-of-the-agentic-llms)
-  - [🟩 Methodology](#-methodology)
-    - [◻️Distillation](#️distillation)
-  - [🟩 Datasets](#-datasets)
-  - [🟩 Pipeline](#-pipeline)
-    - [◻️Training](#️training)
-    - [◻️Inference](#️inference)
-      - [RAG](#rag)
-    - [◻️Prompting](#️prompting)
-  - [🟩 FineTuning](#-finetuning)
-    - [◻️Quantized FineTuning](#️quantized-finetuning)
-    - [◻️DPT](#️dpt)
-    - [◻️ORPO](#️orpo)
-  - [🟩 Quantization](#-quantization)
-    - [◻️Post Training Quantization](#️post-training-quantization)
-      - [Static/Dynamic Quantization](#staticdynamic-quantization)
-      - [GPTQ](#gptq)
-      - [GGUF](#gguf)
-      - [LLM.int8()](#llmint8)
-    - [◻️Quantization Aware Training → 1BIT LLM](#️quantization-aware-training--1bit-llm)
-  - [🟩 RL in LLM](#-rl-in-llm)
-  - [🟩 Coding](#-coding)
-    - [◻️Torch Fundamentals](#️torch-fundamentals)
-  - [🟩 Engineering](#-engineering)
-    - [◻️Flash Attention 2](#️flash-attention-2)
-    - [◻️KV Cache](#️kv-cache)
-    - [◻️Inference → Batched?](#️inference--batched)
-    - [◻️Python Advanced](#️python-advanced)
-      - [Decorators](#decorators)
-      - [Context Managers](#context-managers)
-    - [◻️Triton Kernels](#️triton-kernels)
-    - [◻️CuDA](#️cuda)
-    - [◻️JAX / XLA JIT compilers](#️jax--xla-jit-compilers)
-    - [◻️Model Exporting (vLLM, Llama.cpp, QLoRA)](#️model-exporting-vllm-llamacpp-qlora)
-    - [◻️ML Debugging](#️ml-debugging)
-  - [🟩 Benchmarks](#-benchmarks)
-  - [🟩 Modifications](#-modifications)
-    - [◻️Model Merging](#️model-merging)
-      - [Linear Mapping](#linear-mapping)
-      - [SLERP](#slerp)
-      - [TIES](#ties)
-      - [DARE](#dare)
-    - [◻️MoE](#️moe)
-  - [🟩 Misc Algorithms](#-misc-algorithms)
-    - [◻️Chained Matrix Unit](#️chained-matrix-unit)
-    - [◻️Gradient Checkpointing](#️gradient-checkpointing)
-    - [◻️Chunked Cross Entropy](#️chunked-cross-entropy)
-    - [◻️BPE](#️bpe)
-  - [🟩 Explainability](#-explainability)
-    - [◻️Sparse Autoencoders](#️sparse-autoencoders)
-    - [◻️Task Vectors](#️task-vectors)
-    - [◻️Counterfactuals](#️counterfactuals)
-  - [🟩 MultiModal Transformers](#-multimodal-transformers)
-    - [◻️Audio](#️audio)
-      - [Whisper Models](#whisper-models)
-      - [Diarization](#diarization)
-  - [🟩 Adversarial methods](#-adversarial-methods)
-  - [🟩 Misc](#-misc)
-  - [🟩 Add to the guide:](#-add-to-the-guide)
+- [🟩 Model Architecture](#-model-architecture)
+  - [◻️Transformer Architecture](#️transformer-architecture)
+    - [Tokenization](#tokenization)
+    - [Positional Encoding](#positional-encoding)
+      - [Rotational Positional Encoding](#rotational-positional-encoding)
+      - [Rotary Positional Encoding](#rotary-positional-encoding)
+  - [◻️GPT Architecture](#️gpt-architecture)
+  - [◻️Attention](#️attention)
+  - [◻️Loss](#️loss)
+    - [Cross-Entropy Loss](#cross-entropy-loss)
+- [🟩 Agentic LLMs](#-agentic-llms)
+- [🟩 Methodology](#-methodology)
+  - [◻️Distillation](#️distillation)
+- [🟩 Datasets](#-datasets)
+- [🟩 Pipeline](#-pipeline)
+  - [◻️Training](#️training)
+  - [◻️Inference](#️inference)
+    - [RAG](#rag)
+  - [◻️Prompting](#️prompting)
+- [🟩 FineTuning](#-finetuning)
+  - [◻️Quantized FineTuning](#️quantized-finetuning)
+  - [◻️LoRA](#️lora)
+  - [◻️DPO](#️dpo)
+  - [◻️ORPO](#️orpo)
+  - [◻️RLHF](#️rlhf)
+- [🟩 Quantization](#-quantization)
+  - [◻️Post Training Quantization](#️post-training-quantization)
+    - [Static/Dynamic Quantization](#staticdynamic-quantization)
+    - [GPTQ](#gptq)
+    - [GGUF](#gguf)
+    - [LLM.int8()](#llmint8)
+  - [◻️Quantization Aware Training → 1BIT LLM](#️quantization-aware-training--1bit-llm)
+- [🟩 RL in LLM](#-rl-in-llm)
+- [🟩 Coding](#-coding)
+  - [◻️Torch Fundamentals](#️torch-fundamentals)
+- [🟩 Engineering](#-engineering)
+  - [◻️Flash Attention 2](#️flash-attention-2)
+  - [◻️KV Cache](#️kv-cache)
+  - [◻️Batched Inference](#️batched-inference)
+  - [◻️Python Advanced](#️python-advanced)
+    - [Decorators](#decorators)
+    - [Context Managers](#context-managers)
+  - [◻️Triton Kernels](#️triton-kernels)
+  - [◻️CuDA](#️cuda)
+  - [◻️JAX / XLA JIT compilers](#️jax--xla-jit-compilers)
+  - [◻️Model Exporting (vLLM, Llama.cpp, QLoRA)](#️model-exporting-vllm-llamacpp-qlora)
+  - [◻️ML Debugging](#️ml-debugging)
+- [🟩 Benchmarks](#-benchmarks)
+- [🟩 Modifications](#-modifications)
+  - [◻️Model Merging](#️model-merging)
+    - [Linear Mapping](#linear-mapping)
+    - [SLERP](#slerp)
+    - [TIES](#ties)
+    - [DARE](#dare)
+  - [◻️MoE](#️moe)
+- [🟩 Misc Algorithms](#-misc-algorithms)
+  - [◻️Chained Matrix Unit](#️chained-matrix-unit)
+  - [◻️Gradient Checkpointing](#️gradient-checkpointing)
+  - [◻️Chunked Cross Entropy](#️chunked-cross-entropy)
+  - [◻️BPE](#️bpe)
+- [🟩 Explainability](#-explainability)
+  - [◻️Sparse Autoencoders](#️sparse-autoencoders)
+  - [◻️Task Vectors](#️task-vectors)
+  - [◻️Counterfactuals](#️counterfactuals)
+- [🟩 MultiModal Transformers](#-multimodal-transformers)
+  - [◻️Audio](#️audio)
+    - [Whisper Models](#whisper-models)
+    - [Diarization](#diarization)
+- [🟩 Adversarial methods](#-adversarial-methods)
+- [🟩 Misc](#-misc)
+- [🟩 Add to the guide:](#-add-to-the-guide)
 
 
 
@@ -87,15 +100,18 @@ This section talks about the key aspects of LLM architecture.
 > 📝 Try to cover basics of Transformers, then understand the GPT architecture before diving deeper into other concepts
 #### ◻️Transformer Architecture
 - [Jay Alamar - Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
+- [Umar Jamil: Attention](https://www.youtube.com/watch?v=bCz4OMemCcA&) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
+
 ##### Tokenization
 ##### Positional Encoding
 ###### Rotational Positional Encoding
 ###### Rotary Positional Encoding
 
 #### ◻️GPT Architecture
-
-#### ◻️Architecture Llama
-
+- [Jay Alamar - Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
+- [Reproducing GPT-2 (124M) in llm.c in 90 minutes for $20](https://github.com/karpathy/llm.c/discussions/481) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Umar Jamil: Llama Explained](https://www.youtube.com/watch?v=Mn_9W1nCFLo) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Umar Jamil: Llama 2 from Scratch](https://www.youtube.com/watch?v=oM4VmoabDAI) ![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 
 #### ◻️Attention
 
@@ -105,6 +121,7 @@ This section talks about the key aspects of LLM architecture.
 ---
 ### 🟩 Agentic LLMs
 This section talks about various aspects of the Agentic LLMs
+
 ---
 ### 🟩 Methodology
 This section tries to cover various methodologies used in LLMs. 
@@ -123,8 +140,14 @@ This section tries to cover various methodologies used in LLMs.
 ---
 ### 🟩 FineTuning
 #### ◻️Quantized FineTuning
-#### ◻️DPT
+- [Umar Jamil: Quantization](https://www.youtube.com/watch?v=0VdNflU08yA) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+#### ◻️LoRA
+- [Umar Jamil: LoRA Explained](https://www.youtube.com/watch?v=PXWYUTMt-AU) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+#### ◻️DPO
+- [Umar Jamil: DPO Explained](https://www.youtube.com/watch?v=hvGa5Mba4c8) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️ORPO
+#### ◻️RLHF
+- [Umar Jamil: RLHF Explained](https://www.youtube.com/watch?v=qGyFrqc34yc) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 
 ---
 ### 🟩 Quantization
@@ -144,14 +167,22 @@ This section tries to cover various methodologies used in LLMs.
 
 ---
 ### 🟩 Engineering
+
+
+- [Low Level Technicals of LLMs](https://www.youtube.com/watch?v=pRM_P6UfdIc) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Fixing bugs in Llama, Mistral, Gemma](https://www.youtube.com/watch?v=TKmfBnW0mQA) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [PyTorch Conference Mini Talk](https://www.youtube.com/watch?v=PdtKkc5jB4g) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [PyTorch Engineers Meeting Talk](https://www.youtube.com/watch?v=MQwryfkydc0) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Hugging Face Collab Blog](https://huggingface.co/blog/unsloth-trl) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Flash Attention 2
 #### ◻️KV Cache
-#### ◻️Inference → Batched?
+#### ◻️Batched Inference
 #### ◻️Python Advanced
 ##### Decorators
 ##### Context Managers
 #### ◻️Triton Kernels
 #### ◻️CuDA
+- [CUDA / GPU Mode lecture Talk](https://www.youtube.com/watch?v=hfb_AIhDYnA) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️JAX / XLA JIT compilers
 #### ◻️Model Exporting (vLLM, Llama.cpp, QLoRA)
 #### ◻️ML Debugging
