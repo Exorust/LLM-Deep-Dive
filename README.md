@@ -167,7 +167,7 @@ This section tries to cover various methodologies used in LLMs.
 
 ---
 ### 🟩 Engineering
-
+- [ML Engineering; Used for training BLOOM](https://github.com/stas00/ml-engineering/tree/master) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 
 - [Low Level Technicals of LLMs](https://www.youtube.com/watch?v=pRM_P6UfdIc) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 - [Fixing bugs in Llama, Mistral, Gemma](https://www.youtube.com/watch?v=TKmfBnW0mQA) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
