@@ -106,6 +106,7 @@ This section talks about the key aspects of LLM architecture.
 ##### Positional Encoding
 ###### Rotational Positional Encoding
 ###### Rotary Positional Encoding
+-[Rotary Positional Encoding Explained](https://medium.com/@ngiengkianyew/understanding-rotary-positional-encoding-40635a4d078e)
 
 #### ◻️GPT Architecture
 - [Jay Alamar - Illustrated GPT2](https://jalammar.github.io/illustrated-gpt2/) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
@@ -120,6 +121,7 @@ This section talks about the key aspects of LLM architecture.
 
 ---
 ### 🟩 Agentic LLMs
+-[Agentic LLMs Deep Dive](https://www.aimon.ai/posts/deep-dive-into-agentic-llm-frameworks)
 This section talks about various aspects of the Agentic LLMs
 
 ---
@@ -217,6 +219,7 @@ This section tries to cover various methodologies used in LLMs.
 ### 🟩 MultiModal Transformers
 #### ◻️Audio
 ##### Whisper Models
+- [Whisper Model Explained](https://www.notta.ai/en/blog/how-to-use-whisper)
 ##### Diarization
 
 ---
