@@ -55,6 +55,7 @@ Each area has multiple types of subtopics each of which will go more in depth. I
 - [🟩 RL in LLM](#-rl-in-llm)
 - [🟩 Coding](#-coding)
   - [◻️Torch Fundamentals](#️torch-fundamentals)
+- [🟩 Deployment](#-deployment)
 - [🟩 Engineering](#-engineering)
   - [◻️Flash Attention 2](#️flash-attention-2)
   - [◻️KV Cache](#️kv-cache)
@@ -166,6 +167,10 @@ This section tries to cover various methodologies used in LLMs.
 ---
 ### 🟩 Coding
 #### ◻️Torch Fundamentals
+
+---
+### 🟩 Deployment
+
 
 ---
 ### 🟩 Engineering
