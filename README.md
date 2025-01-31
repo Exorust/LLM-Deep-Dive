@@ -206,8 +206,10 @@ This section tries to cover various methodologies used in LLMs.
 ---
 ### 🟩 Modifications
 #### ◻️Model Merging
+-[An Introduction to Model Merging for LLMs](https://developer.nvidia.com/blog/an-introduction-to-model-merging-for-llms/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ##### Linear Mapping
 ##### SLERP
+-[Merging tokens to accelerate LLM inference with SLERP](https://medium.com/towards-data-science/merging-tokens-to-accelerate-llm-inference-with-slerp-38a32bf7f194)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ##### TIES
 ##### DARE
 #### ◻️MoE
