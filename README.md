@@ -170,6 +170,12 @@ This section tries to cover various methodologies used in LLMs.
 
 ---
 ### 🟩 Deployment
+- [Achieve 23x LLM Inference Throughput & Reduce p50 Latency](https://charoori.notion.site/Achieve-23x-LLM-Inference-Throughput-Reduce-p50-Latency-17d311b8ed1e818daf2bf1287647e99f)
+- [LLM Inference Optimizations — Continuous Batching (Dynamic Batching) and Selective Batching, Orca | by Don Moon | Byte-Sized AI | Medium](https://charoori.notion.site/LLM-Inference-Optimizations-Continuous-Batching-Dynamic-Batching-and-Selective-Batching-Orca--17d311b8ed1e81718f56f7a26ec8f5b8)
+- [LLM Inference Optimizations - Chunked Prefills and Decode Maximal Batching | by Don Moon | Byte-Sized AI](https://charoori.notion.site/LLM-Inference-Optimizations-Chunked-Prefills-and-Decode-Maximal-Batching-by-Don-Moon-Byte-Size-17d311b8ed1e81d49ec0fedbd351821b)
+- [LLM Inference Series: 2. The two-phase process behind LLMs' responses | by Pierre Lienhart | Medium](https://charoori.notion.site/LLM-Inference-Series-2-The-two-phase-process-behind-LLMs-responses-by-Pierre-Lienhart-Medium-17d311b8ed1e812d9a80e14442d55eb1)
+- [LLM Inference Series: 4. KV caching, a deeper look | by Pierre Lienhart | Medium](https://charoori.notion.site/LLM-Inference-Series-4-KV-caching-a-deeper-look-by-Pierre-Lienhart-Medium-17d311b8ed1e81a499d7f1cd07cd97c8)
+
 
 
 ---
