@@ -170,11 +170,11 @@ This section tries to cover various methodologies used in LLMs.
 
 ---
 ### 🟩 Deployment
-- [Achieve 23x LLM Inference Throughput & Reduce p50 Latency](https://charoori.notion.site/Achieve-23x-LLM-Inference-Throughput-Reduce-p50-Latency-17d311b8ed1e818daf2bf1287647e99f)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
-- [LLM Inference Optimizations — Continuous Batching (Dynamic Batching) and Selective Batching, Orca | by Don Moon | Byte-Sized AI | Medium](https://charoori.notion.site/LLM-Inference-Optimizations-Continuous-Batching-Dynamic-Batching-and-Selective-Batching-Orca--17d311b8ed1e81718f56f7a26ec8f5b8)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
-- [LLM Inference Optimizations - Chunked Prefills and Decode Maximal Batching | by Don Moon | Byte-Sized AI](https://charoori.notion.site/LLM-Inference-Optimizations-Chunked-Prefills-and-Decode-Maximal-Batching-by-Don-Moon-Byte-Size-17d311b8ed1e81d49ec0fedbd351821b)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
-- [LLM Inference Series: 2. The two-phase process behind LLMs' responses | by Pierre Lienhart | Medium](https://charoori.notion.site/LLM-Inference-Series-2-The-two-phase-process-behind-LLMs-responses-by-Pierre-Lienhart-Medium-17d311b8ed1e812d9a80e14442d55eb1)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
-- [LLM Inference Series: 4. KV caching, a deeper look | by Pierre Lienhart | Medium](https://charoori.notion.site/LLM-Inference-Series-4-KV-caching-a-deeper-look-by-Pierre-Lienhart-Medium-17d311b8ed1e81a499d7f1cd07cd97c8)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
+- [How continuous batching enables 23x throughput in LLM inference while reducing p50 latency](https://www.anyscale.com/blog/continuous-batching-llm-inference)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
+- [LLM Inference Optimizations — Continuous Batching and Selective Batching, Orca](https://medium.com/byte-sized-ai/inference-optimizations-1-continuous-batching-03408c673098)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [[vLLM] LLM Inference Optimizations: Chunked Prefill and Decode-Maximal Batching](https://medium.com/byte-sized-ai/llm-inference-optimizations-2-chunked-prefill-764407b3a67a)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [LLM Inference Series: 2. The two-phase process behind LLMs’ responses](https://medium.com/@plienhar/llm-inference-series-2-the-two-phase-process-behind-llms-responses-1ff1ff021cd5)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
+- [LLM Inference Series: 4. KV caching, a deeper look](https://medium.com/@plienhar/llm-inference-series-4-kv-caching-a-deeper-look-4ba9a77746c8)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 
 
 
