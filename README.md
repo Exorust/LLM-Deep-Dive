@@ -129,7 +129,7 @@ This section talks about various aspects of the Agentic LLMs
 ### 🟩 Methodology
 This section tries to cover various methodologies used in LLMs. 
 #### ◻️Distillation
-
+- [LLM Distillation Explained: Applications, Implementation & More](https://www.datacamp.com/blog/distillation-llm)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ---
 ### 🟩 Datasets
 
@@ -163,7 +163,7 @@ This section tries to cover various methodologies used in LLMs.
 
 ---
 ### 🟩 RL in LLM
-
+- [Basics of Reinforcement Learning for LLMs](https://cameronrwolfe.substack.com/p/basics-of-reinforcement-learning)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 ---
 ### 🟩 Coding
 #### ◻️Torch Fundamentals
@@ -202,7 +202,7 @@ This section tries to cover various methodologies used in LLMs.
 
 ---
 ### 🟩 Benchmarks
-
+- [What are LLM benchmarks?](https://www.ibm.com/think/topics/llm-benchmarks)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ---
 ### 🟩 Modifications
 #### ◻️Model Merging
@@ -226,15 +226,16 @@ This section tries to cover various methodologies used in LLMs.
 #### ◻️Sparse Autoencoders
 - [Sparse AutoEncoders Explained](https://adamkarvonen.github.io/machine_learning/2024/06/11/sae-intuitions.html) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
 #### ◻️Task Vectors
+-[Researchers discover in-context learning creates task vectors in LLMs](https://notes.aimodels.fyi/researchers-discover-in-context-learning-creates-task-vectors/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Counterfactuals
-
+- [Evaluating Large Language Models Using “Counterfactual Tasks”](https://aiguide.substack.com/p/evaluating-large-language-models)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 ---
 ### 🟩 MultiModal Transformers
 #### ◻️Audio
 ##### Whisper Models
-- [Whisper Model Explained](https://www.notta.ai/en/blog/how-to-use-whisper)
+- [Whisper Model Explained](https://www.notta.ai/en/blog/how-to-use-whisper)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ##### Diarization
-
+- [Level up Your RAG Application with Speaker Diarization](https://haystack.deepset.ai/blog/level-up-rag-with-speaker-diarization)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ---
 ### 🟩 Adversarial methods
 
