@@ -104,6 +104,7 @@ This section talks about the key aspects of LLM architecture.
 - [Umar Jamil: Attention](https://www.youtube.com/watch?v=bCz4OMemCcA&) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
 
 ##### Tokenization
+- [Tokenization in large language models, explained](https://seantrott.substack.com/p/tokenization-in-large-language-models)![Easy](https://img.shields.io/badge/difficulty-Easy-green)
 ##### Positional Encoding
 ###### Rotational Positional Encoding
 ###### Rotary Positional Encoding
@@ -119,17 +120,17 @@ This section talks about the key aspects of LLM architecture.
 
 #### ◻️Loss
 ##### Cross-Entropy Loss
-
+- [Cross Entropy in Large Language Models (LLMs)](https://medium.com/ai-assimilating-intelligence/cross-entropy-in-large-language-models-llms-4f1c842b5fca)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ---
 ### 🟩 Agentic LLMs
--[Agentic LLMs Deep Dive](https://www.aimon.ai/posts/deep-dive-into-agentic-llm-frameworks)
+-[Agentic LLMs Deep Dive](https://www.aimon.ai/posts/deep-dive-into-agentic-llm-frameworks)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 This section talks about various aspects of the Agentic LLMs
 
 ---
 ### 🟩 Methodology
 This section tries to cover various methodologies used in LLMs. 
 #### ◻️Distillation
-
+- [LLM distillation demystified: a complete guide](https://snorkel.ai/blog/llm-distillation-demystified-a-complete-guide/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ---
 ### 🟩 Datasets
 
