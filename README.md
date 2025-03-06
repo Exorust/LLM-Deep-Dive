@@ -57,7 +57,7 @@ Each area has multiple types of subtopics each of which will go more in depth. I
   - [◻️Torch Fundamentals](#️torch-fundamentals)
 - [🟩 Deployment](#-deployment)
 - [🟩 Engineering](#-engineering)
-  - [◻️Flash Attention 2](#️flash-attention-2)
+  - [◻️Flash Attention 2]
   - [◻️KV Cache](#️kv-cache)
   - [◻️Batched Inference](#️batched-inference)
   - [◻️Python Advanced](#️python-advanced)
@@ -117,7 +117,8 @@ This section talks about the key aspects of LLM architecture.
 - [Umar Jamil: Llama 2 from Scratch](https://www.youtube.com/watch?v=oM4VmoabDAI) ![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 
 #### ◻️Attention
-
+- [Multi-Head Attention (MHA), Multi-Query Attention (MQA), Grouped Query Attention (GQA) Explained](https://www.youtube.com/watch?v=o68RRGxAtDo)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- 
 #### ◻️Loss
 ##### Cross-Entropy Loss
 - [Cross Entropy in Large Language Models (LLMs)](https://medium.com/ai-assimilating-intelligence/cross-entropy-in-large-language-models-llms-4f1c842b5fca)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
@@ -131,6 +132,7 @@ This section talks about various aspects of the Agentic LLMs
 This section tries to cover various methodologies used in LLMs. 
 #### ◻️Distillation
 - [LLM distillation demystified: a complete guide](https://snorkel.ai/blog/llm-distillation-demystified-a-complete-guide/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Distilling step-by-step: Outperforming larger language models with less training data and smaller model sizes](https://research.google/blog/distilling-step-by-step-outperforming-larger-language-models-with-less-training-data-and-smaller-model-sizes/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ---
 ### 🟩 Datasets
 
@@ -176,6 +178,7 @@ This section tries to cover various methodologies used in LLMs.
 - [[vLLM] LLM Inference Optimizations: Chunked Prefill and Decode-Maximal Batching](https://medium.com/byte-sized-ai/llm-inference-optimizations-2-chunked-prefill-764407b3a67a)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 - [LLM Inference Series: 2. The two-phase process behind LLMs’ responses](https://medium.com/@plienhar/llm-inference-series-2-the-two-phase-process-behind-llms-responses-1ff1ff021cd5)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 - [LLM Inference Series: 4. KV caching, a deeper look](https://medium.com/@plienhar/llm-inference-series-4-kv-caching-a-deeper-look-4ba9a77746c8)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
+- [How KV caches impact time to first token for LLMs](https://www.glean.com/blog/glean-kv-caches-llm-latency)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 
 
 
@@ -189,6 +192,7 @@ This section tries to cover various methodologies used in LLMs.
 - [PyTorch Engineers Meeting Talk](https://www.youtube.com/watch?v=MQwryfkydc0) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 - [Hugging Face Collab Blog](https://huggingface.co/blog/unsloth-trl) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Flash Attention 2
+-[FLASHATTENTION: Fast and Memory-Efficient Exact Attention with IO-Awareness]((https://arxiv.org/pdf/2205.14135)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️KV Cache
 #### ◻️Batched Inference
 #### ◻️Python Advanced
@@ -199,6 +203,8 @@ This section tries to cover various methodologies used in LLMs.
 - [CUDA / GPU Mode lecture Talk](https://www.youtube.com/watch?v=hfb_AIhDYnA) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️JAX / XLA JIT compilers
 #### ◻️Model Exporting (vLLM, Llama.cpp, QLoRA)
+-[QLoRA: Fine-Tuning Large Language Models (LLM’s)](https://medium.com/@dillipprasad60/qlora-explained-a-deep-dive-into-parametric-efficient-fine-tuning-in-large-language-models-llms-c1a4794b1766)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
+-[]()
 #### ◻️ML Debugging
 
 ---
