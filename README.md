@@ -57,7 +57,7 @@ Each area has multiple types of subtopics each of which will go more in depth. I
   - [◻️Torch Fundamentals](#️torch-fundamentals)
 - [🟩 Deployment](#-deployment)
 - [🟩 Engineering](#-engineering)
-  - [◻️Flash Attention 2]
+  - [◻️Flash Attention 2](#Flash Attention 2)
   - [◻️KV Cache](#️kv-cache)
   - [◻️Batched Inference](#️batched-inference)
   - [◻️Python Advanced](#️python-advanced)
