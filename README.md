@@ -206,7 +206,7 @@ This section tries to cover various methodologies used in LLMs.
 - [Blueprints for recommender system architectures: 10th anniversary edition](https://amatria.in/blog/RecsysArchitectures)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Flash Attention 2
 - [Flash Attention Machine Learning](https://www.youtube.com/watch?v=N1EZpa7lZc8)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
-- [FLASHATTENTION: Fast and Memory-Efficient Exact Attention with IO-Awareness]((https://arxiv.org/pdf/2205.14135)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [FLASHATTENTION: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️KV Cache
 #### ◻️Batched Inference
 #### ◻️Python Advanced
