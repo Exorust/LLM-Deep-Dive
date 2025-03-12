@@ -57,7 +57,7 @@ Each area has multiple types of subtopics each of which will go more in depth. I
   - [◻️Torch Fundamentals](#️torch-fundamentals)
 - [🟩 Deployment](#-deployment)
 - [🟩 Engineering](#-engineering)
-  - [◻️Flash Attention 2]
+  - [◻️Flash Attention 2](#Flash-Attention-2)
   - [◻️KV Cache](#️kv-cache)
   - [◻️Batched Inference](#️batched-inference)
   - [◻️Python Advanced](#️python-advanced)
@@ -99,12 +99,18 @@ Each area has multiple types of subtopics each of which will go more in depth. I
 ### 🟩 Model Architecture
 This section talks about the key aspects of LLM architecture.
 > 📝 Try to cover basics of Transformers, then understand the GPT architecture before diving deeper into other concepts
+- [Numbers every LLM Developer should know](https://github.com/ray-project/llm-numbers#1-mb-gpu-memory-required-for-1-token-of-output-with-a-13b-parameter-model)![Easy](https://img.shields.io/badge/difficulty-Easy-green)
 #### ◻️Transformer Architecture
 - [Jay Alamar - Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
 - [Umar Jamil: Attention](https://www.youtube.com/watch?v=bCz4OMemCcA&) ![Easy](https://img.shields.io/badge/difficulty-Easy-green)
+- [Large Scale Transformer model training with Tensor Parallel (TP)](https://pytorch.org/tutorials/intermediate/TP_tutorial.html)![Easy](https://img.shields.io/badge/difficulty-Easy-green)
+- [RoPE (Rotary positional embeddings) explained: The positional workhorse of modern LLMs](https://www.youtube.com/watch?v=GQPOtyITy54&t=66s)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Rotary Embeddings: A Relative Revolution | EleutherAI Blog](https://blog.eleuther.ai/rotary-embeddings/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 
 ##### Tokenization
 - [Tokenization in large language models, explained](https://seantrott.substack.com/p/tokenization-in-large-language-models)![Easy](https://img.shields.io/badge/difficulty-Easy-green)
+- [LLM Tokenizers Explained: BPE Encoding, WordPiece and SentencePiece](https://www.youtube.com/watch?v=hL4ZnAWSyuU)![Easy](https://img.shields.io/badge/difficulty-Easy-green)
+- [SentencePiece Tokenizer Demystified](https://towardsdatascience.com/sentencepiece-tokenizer-demystified-d0a3aac19b15/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ##### Positional Encoding
 ###### Rotational Positional Encoding
 ###### Rotary Positional Encoding
@@ -141,10 +147,12 @@ This section tries to cover various methodologies used in LLMs.
 #### ◻️Training
 #### ◻️Inference
 ##### RAG
+- [Introduction to Facebook AI Similarity Search (Faiss)](https://www.pinecone.io/learn/series/faiss/faiss-tutorial/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Prompting
 
 ---
 ### 🟩 FineTuning
+-[Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Quantized FineTuning
 - [Umar Jamil: Quantization](https://www.youtube.com/watch?v=0VdNflU08yA) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️LoRA
@@ -154,9 +162,10 @@ This section tries to cover various methodologies used in LLMs.
 #### ◻️ORPO
 #### ◻️RLHF
 - [Umar Jamil: RLHF Explained](https://www.youtube.com/watch?v=qGyFrqc34yc) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
-
+- [Policy Gradients: The Foundation of RLHF](https://cameronrwolfe.substack.com/p/policy-gradients-the-foundation-of)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 ---
 ### 🟩 Quantization
+- [HuggingFace Quantization Overview](https://huggingface.co/docs/transformers/main/en/quantization/overview)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Post Training Quantization
 ##### Static/Dynamic Quantization
 ##### GPTQ
@@ -179,7 +188,7 @@ This section tries to cover various methodologies used in LLMs.
 - [LLM Inference Series: 2. The two-phase process behind LLMs’ responses](https://medium.com/@plienhar/llm-inference-series-2-the-two-phase-process-behind-llms-responses-1ff1ff021cd5)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 - [LLM Inference Series: 4. KV caching, a deeper look](https://medium.com/@plienhar/llm-inference-series-4-kv-caching-a-deeper-look-4ba9a77746c8)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 - [How KV caches impact time to first token for LLMs](https://www.glean.com/blog/glean-kv-caches-llm-latency)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
-
+- [Generation with LLMs](https://charoori.notion.site/Generation-with-LLMs-17d311b8ed1e819b99a3e79112e00ca6)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 
 
 ---
@@ -191,8 +200,13 @@ This section tries to cover various methodologies used in LLMs.
 - [PyTorch Conference Mini Talk](https://www.youtube.com/watch?v=PdtKkc5jB4g) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 - [PyTorch Engineers Meeting Talk](https://www.youtube.com/watch?v=MQwryfkydc0) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 - [Hugging Face Collab Blog](https://huggingface.co/blog/unsloth-trl) ![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Summary of Designing Machine Learning Systems](https://github.com/serodriguez68/designing-ml-systems-summary)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [System Design for Recommendations and Search](https://eugeneyan.com/writing/system-design-for-discovery/)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Recommender Systems, Not Just Recommender Models](https://medium.com/nvidia-merlin/recommender-systems-not-just-recommender-models-485c161c755e)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Blueprints for recommender system architectures: 10th anniversary edition](https://amatria.in/blog/RecsysArchitectures)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️Flash Attention 2
--[FLASHATTENTION: Fast and Memory-Efficient Exact Attention with IO-Awareness]((https://arxiv.org/pdf/2205.14135)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [Flash Attention Machine Learning](https://www.youtube.com/watch?v=N1EZpa7lZc8)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
+- [FLASHATTENTION: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://arxiv.org/pdf/2205.14135)![Medium](https://img.shields.io/badge/difficulty-Medium-yellow)
 #### ◻️KV Cache
 #### ◻️Batched Inference
 #### ◻️Python Advanced
@@ -249,6 +263,7 @@ This section tries to cover various methodologies used in LLMs.
 
 ### 🟩 Misc
 - [Tweet on what to learn in ML (RT by Karpathy)](https://x.com/youraimarketer/status/1778992208697258152) ![Hard](https://img.shields.io/badge/difficulty-Hard-red)
+- [Schedule - CS 685, Spring 2024, UMass Amherst](https://people.cs.umass.edu/~miyyer/cs685/schedule.html)![Hard](https://img.shields.io/badge/difficulty-Hard-red)
 ---
 
 
